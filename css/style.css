@@ -1,0 +1,47 @@
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 24px 24px 0;
+}
+.container-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-title{
+    margin: 0;
+    margin-bottom: 10px;
+    color: #1A1D53;
+    font-weight: 700;
+    font-size: 36px;
+}
+#dvBannerHTML .ff-form-main{
+	border-radius: 10px;
+}
+
+#dvFastForms .ff-section-header{
+	color: #1A1D53!important;
+    font-weight: 700!important;
+    font-size: 36px!important;
+}
+#dvFastForms .btnDiv input{
+	padding: 4px 73px!important;
+    background: #2664EC!important;
+    border-radius: 4px!important;
+	padding: 0 22px;
+	height: 39px;
+}
+#dvFastForms .ff-type-text, #dvFastForms .ff-textarea, #dvFastForms select.ff-select-type, #dvFastForms .ff-fileupload-drop-area, #dvFastForms .select2-container .select2-choice, #dvFastForms .select2-container .select2-choices {
+    border-radius: 10px !important;
+}
+#dvFastForms .ff-col-2.ff-field-col{
+	flex-direction: column;
+}
